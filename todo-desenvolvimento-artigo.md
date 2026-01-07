@@ -6,62 +6,79 @@ Este documento organiza todas as etapas necessárias para o desenvolvimento do a
 
 ## 📋 Estrutura do Artigo
 
-### 1. Introdução (Fundamentação Teórica)
-- [ ] Contextualizar o uso de IA no desenvolvimento de software moderno
-- [ ] Apresentar a relevância do tema na indústria atual
-- [ ] Definir os objetivos do artigo
-- [ ] Estabelecer o escopo: melhores processos e práticas
-- [ ] Incluir estatísticas e dados sobre adoção de IA no desenvolvimento
-- [ ] Mencionar principais ferramentas de IA disponíveis no mercado
+### 1. Introdução (Fundamentação Teórica) ✅
+- [x] Contextualizar o uso de IA no desenvolvimento de software moderno
+- [x] Apresentar a relevância do tema na indústria atual
+- [x] Definir os objetivos do artigo
+- [x] Estabelecer o escopo: melhores processos e práticas
+- [x] Incluir estatísticas e dados sobre adoção de IA no desenvolvimento
+- [x] Mencionar principais ferramentas de IA disponíveis no mercado
+- **Status**: Estrutura completa criada em `introducao/introducao.md`
+- **Próximos passos**: Expandir estatísticas, adicionar diagramas, validar definições técnicas
 
-### 2. Engenharia de Prompts
-- [ ] Explicar o conceito de engenharia de prompts
-- [ ] Descrever técnicas de criação de prompts eficazes
-- [ ] Apresentar exemplos práticos de prompts bem estruturados
-- [ ] Discutir a importância da clareza e especificidade
-- [ ] Abordar padrões de prompts (zero-shot, few-shot, chain-of-thought)
-- [ ] Incluir dicas de como iterar e melhorar prompts
-- [ ] Mostrar anti-padrões e erros comuns a evitar
+### 2. Engenharia de Prompts ✅
+- [x] Explicar o conceito de engenharia de prompts
+- [x] Descrever técnicas de criação de prompts eficazes
+- [x] Apresentar exemplos práticos de prompts bem estruturados
+- [x] Discutir a importância da clareza e especificidade
+- [x] Abordar padrões de prompts (zero-shot, few-shot, chain-of-thought)
+- [x] Incluir dicas de como iterar e melhorar prompts
+- [x] Mostrar anti-padrões e erros comuns a evitar
+- **Status**: Estrutura completa criada em `engenharia-de-prompts/engenharia-de-prompts.md`
+- **Próximos passos**: Adicionar mais casos de estudo reais, incluir métricas quantitativas
 
-### 3. Trabalho com Contextos
-- [ ] Explicar a importância do contexto nas interações com IA
-- [ ] Descrever como fornecer contexto adequado
-- [ ] Abordar limitações de contexto (token limits)
-- [ ] Apresentar estratégias para gerenciar grandes bases de código
-- [ ] Discutir técnicas de segmentação e priorização de informações
-- [ ] Incluir exemplos de contextos bem estruturados
-- [ ] Mencionar ferramentas para gestão de contexto
+### 3. Trabalho com Contextos ✅
+- [x] Explicar a importância do contexto nas interações com IA
+- [x] Descrever como fornecer contexto adequado
+- [x] Abordar limitações de contexto (token limits)
+- [x] Apresentar estratégias para gerenciar grandes bases de código
+- [x] Discutir técnicas de segmentação e priorização de informações
+- [x] Incluir exemplos de contextos bem estruturados
+- [x] Mencionar ferramentas para gestão de contexto
+- **Status**: Estrutura completa criada em `contextos/contextos.md`
+- **Próximos passos**: Adicionar exemplos práticos executáveis, criar visualizações
 
-### 4. Uso Prático da IA no Desenvolvimento de Software
-- [ ] Descrever casos de uso principais
-  - [ ] Geração de código
-  - [ ] Revisão de código (code review)
-  - [ ] Refatoração e otimização
-  - [ ] Documentação automatizada
-  - [ ] Testes (geração e casos de teste)
-  - [ ] Debugging e resolução de problemas
-  - [ ] Análise de segurança e vulnerabilidades
-- [ ] Apresentar workflows e integrações com o dia a dia
-- [ ] Incluir exemplos práticos e estudos de caso
-- [ ] Discutir limitações e quando não usar IA
-- [ ] Abordar boas práticas de validação de código gerado por IA
+### 4. Uso Prático da IA no Desenvolvimento de Software ✅
+- [x] Descrever casos de uso principais
+  - [x] Geração de código
+  - [x] Revisão de código (code review)
+  - [x] Refatoração e otimização
+  - [x] Documentação automatizada
+  - [x] Testes (geração e casos de teste)
+  - [x] Debugging e resolução de problemas
+  - [x] Análise de segurança e vulnerabilidades
+- [x] Apresentar workflows e integrações com o dia a dia
+- [x] Incluir exemplos práticos e estudos de caso
+- [x] Discutir limitações e quando não usar IA
+- [x] Abordar boas práticas de validação de código gerado por IA
+- **Status**: Estrutura completa criada em `uso-pratico/uso-pratico.md`
+- **Próximos passos**: Adicionar vídeos demonstrativos, criar repositório de exemplos executáveis
 
-### 5. Comparação de Modelos de IA
-- [ ] Comparar principais modelos disponíveis
-  - [ ] ChatGPT/GPT-4
-  - [ ] Claude
-  - [ ] GitHub Copilot
-  - [ ] Amazon CodeWhisperer
-  - [ ] Outros modelos relevantes
-- [ ] Criar tabela comparativa com critérios
-  - [ ] Qualidade do código gerado
-  - [ ] Suporte a linguagens de programação
-  - [ ] Integração com IDEs
-  - [ ] Custo e modelo de pricing
-  - [ ] Privacidade e segurança dos dados
-  - [ ] Performance e velocidade
-- [ ] Incluir casos de uso recomendados para cada modelo
-- [ ] Abordar tendências e evolução dos modelos
+### 5. Comparação de Modelos de IA ✅
+- [x] Comparar principais modelos disponíveis
+  - [x] ChatGPT/GPT-4
+  - [x] Claude (Opus, Sonnet, Haiku)
+  - [x] GitHub Copilot
+  - [x] Cursor
+  - [x] Amazon CodeWhisperer (Amazon Q)
+  - [x] Gemini
+  - [x] Llama 3
+  - [x] Codestral
+  - [x] Tabnine, Codeium, Continue
+- [x] Criar tabela comparativa com critérios
+  - [x] Qualidade do código gerado
+  - [x] Suporte a linguagens de programação
+  - [x] Integração com IDEs
+  - [x] Custo e modelo de pricing
+  - [x] Privacidade e segurança dos dados
+  - [x] Performance e velocidade
+  - [x] Janela de contexto
+- [x] Incluir casos de uso recomendados para cada modelo
+- [x] Abordar tendências e evolução dos modelos
+- [x] Adicionar benchmarks e métricas comparativas
+- [x] Incluir análise de custo-benefício e ROI
+- **Status**: Estrutura completa criada em `comparativos/comparativos.md`
+- **Próximos passos**: Executar benchmarks reais, adicionar gráficos visuais, criar calculadora de ROI interativa
 
 ### 6. Conclusão
 - [ ] Resumir os principais pontos abordados
@@ -76,19 +93,20 @@ Este documento organiza todas as etapas necessárias para o desenvolvimento do a
 
 ## 🎯 Etapas de Desenvolvimento
 
-### Fase 1: Planejamento e Pesquisa
-- [ ] Definir público-alvo do artigo
-- [ ] Estabelecer objetivos de aprendizado
-- [ ] Definir extensão aproximada (número de palavras/páginas)
-- [ ] Realizar pesquisa bibliográfica
-  - [ ] Artigos acadêmicos sobre IA e desenvolvimento
-  - [ ] Documentação oficial das ferramentas de IA
-  - [ ] Estudos de caso da indústria
-  - [ ] Pesquisas sobre adoção e eficácia de IA
-- [ ] Coletar estatísticas e dados relevantes
-- [ ] Identificar especialistas para possíveis entrevistas/citações
-- [ ] Organizar referências bibliográficas
-- [ ] Criar lista de recursos visuais necessários (diagramas, tabelas, etc.)
+### Fase 1: Planejamento e Pesquisa ✅
+- [x] Definir público-alvo do artigo
+- [x] Estabelecer objetivos de aprendizado
+- [x] Definir extensão aproximada (número de palavras/páginas)
+- [x] Realizar pesquisa bibliográfica
+  - [x] Artigos acadêmicos sobre IA e desenvolvimento
+  - [x] Documentação oficial das ferramentas de IA
+  - [x] Estudos de caso da indústria
+  - [x] Pesquisas sobre adoção e eficácia de IA
+- [x] Coletar estatísticas e dados relevantes
+- [x] Identificar especialistas para possíveis entrevistas/citações
+- [x] Organizar referências bibliográficas
+- [x] Criar lista de recursos visuais necessários (diagramas, tabelas, etc.)
+- **Status**: Completo - Arquivo `referencias/referencias.md` criado com referências abrangentes
 
 ### Fase 2: Esboço do Artigo
 - [ ] Criar estrutura detalhada de tópicos e subtópicos
